@@ -1,0 +1,41 @@
+/* Siga as orientações no arquivo README para concluir o exercício */
+
+.container {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #2e7d32; 
+    color: brown;            
+}
+
+.cabecalho {
+    background-color: #d8ab57; 
+    text-align: center;
+}
+
+.titulo {
+    color: #2c3e50;      
+    font-weight: bold;    
+    font-size: 32px;      
+}
+
+.subtitulo {
+    color: #5d4037; 
+}
+
+.conteudo p{
+    background-color: antiquewhite; 
+    font-size: 42px;   
+    color: #E4005A;        
+    padding: 20px;
+    margin-top: 10px;
+
+}
+.conteudo .terceirop {
+    background-color: #c03fe7; 
+    vertical-align: sub;
+}
+@media (max-width: 480px) {
+    div.container {
+        background-color: #ADD8E6; 
+    }
+}
